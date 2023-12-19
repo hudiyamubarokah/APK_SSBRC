@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#166C62">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="244dp"
+                android:layout_height="258dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="70dp"
+                android:layout_marginTop="146dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="445dp"
+                android:text="@string/welcome"
+                android:textAlignment="center"
+                android:textColor="#BFAD5B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="470dp"
+                android:text="SSB RangCupak"
+                android:textAlignment="center"
+                android:textColor="#BFAD5B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SSBRC PROJECT</string>
+    <string name="welcome">WELCOME</string>
+    <string name="ssb_rang_cupak">SSB RangCupak</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="biodata">Biodata</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_el">Lorem ipsum dolor sit amet, consectetur adipiscing el.......</string>
+</resources>

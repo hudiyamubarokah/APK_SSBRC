@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pagesm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Keuangan"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="671dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="310dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/bgkeuangan">
+
+                        <TextView
+                            android:id="@+id/ttpemasukan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="70dp"
+                            android:text="Pemasukan : Rp. 000.000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/ttpengeluaran"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="40dp"
+                            android:text="Pengeluaran : Rp. 000.000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/jlmsaldo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="saldo : Rp. 000.000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="60dp"
+            android:overScrollMode="never"
+            android:scrollbars="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:paddingStart="4dp"
+                    android:id="@+id/listdatakeu"
+                    tools:listitem="@layout/listtambahkeuangan"
+
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </ScrollView>
+
+
+        <ImageView
+            android:id="@+id/tambah"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/tambah" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pagesm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Berita"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terbaru"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:overScrollMode="never">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/bg_berita">
+
+                                <ImageView
+                                    android:layout_width="101dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@drawable/gbberita" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginEnd="30dp"
+                                    android:layout_marginBottom="140dp"
+                                    android:text="Judul"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="50dp"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing el......."
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="160dp"
+                                    android:text="Selanjutnya"
+                                    android:textColor="#0027FF"
+                                    android:textSize="15sp"
+                                    android:textStyle="italic" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/bg_berita">
+
+                                <ImageView
+                                    android:layout_width="101dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@drawable/gbberita" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginEnd="30dp"
+                                    android:layout_marginBottom="140dp"
+                                    android:text="Judul"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="50dp"
+                                    android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_el"
+                                    android:textSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="160dp"
+                                    android:text="Selanjutnya"
+                                    android:textColor="#0027FF"
+                                    android:textSize="15sp"
+                                    android:textStyle="italic" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/bg_berita">
+
+                                <ImageView
+                                    android:layout_width="101dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@drawable/gbberita" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginEnd="30dp"
+                                    android:layout_marginBottom="140dp"
+                                    android:text="Judul"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="50dp"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing el......."
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="160dp"
+                                    android:text="Selanjutnya"
+                                    android:textColor="#0027FF"
+                                    android:textSize="15dp"
+                                    android:textStyle="italic" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/bg_berita">
+
+                                <ImageView
+                                    android:layout_width="101dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@drawable/gbberita" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginEnd="30dp"
+                                    android:layout_marginBottom="140dp"
+                                    android:text="Judul"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="50dp"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing el......."
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="160dp"
+                                    android:text="Selanjutnya"
+                                    android:textColor="#0027FF"
+                                    android:textSize="15dp"
+                                    android:textStyle="italic" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <RelativeLayout
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:background="@drawable/bg_berita">
+
+                                <ImageView
+                                    android:layout_width="101dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:background="@drawable/gbberita" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginEnd="30dp"
+                                    android:layout_marginBottom="140dp"
+                                    android:text="Judul"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    android:layout_marginBottom="50dp"
+                                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing el......."
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="end"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="160dp"
+                                    android:text="Selanjutnya"
+                                    android:textColor="#0027FF"
+                                    android:textSize="15dp"
+                                    android:textStyle="italic" />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+        </HorizontalScrollView>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Semua"
+       android:textStyle="bold"
+       android:textSize="20sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="40dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_butonberita">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/gbberita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="99dp"
+                            android:layout_marginBottom="49dp"
+                            android:text="Judul"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginEnd="31dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="Lorem ipsum dolor sit......."
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="149dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="Selanjutnya"
+                            android:textColor="#0027FF"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_butonberita">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/gbberita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="99dp"
+                            android:layout_marginBottom="49dp"
+                            android:text="Judul"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="101dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Lorem ipsum dolor sit......."
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="149dp"
+                            android:layout_marginBottom="9dp"
+                            android:text="Selanjutnya"
+                            android:textColor="#0027FF"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_butonberita">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/gbberita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="99dp"
+                            android:layout_marginBottom="49dp"
+                            android:text="Judul"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginEnd="31dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="Lorem ipsum dolor sit......."
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="149dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="Selanjutnya"
+                            android:textColor="#0027FF"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_butonberita">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/gbberita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="99dp"
+                            android:layout_marginBottom="49dp"
+                            android:text="Judul"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="101dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Lorem ipsum dolor sit......."
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="149dp"
+                            android:layout_marginBottom="9dp"
+                            android:text="Selanjutnya"
+                            android:textColor="#0027FF"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_butonberita">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/gbberita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="99dp"
+                            android:layout_marginBottom="49dp"
+                            android:text="Judul"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginEnd="31dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="Lorem ipsum dolor sit......."
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="149dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="Selanjutnya"
+                            android:textColor="#0027FF"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/bg_butonberita">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/gbberita" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="99dp"
+                            android:layout_marginBottom="49dp"
+                            android:text="Judul"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="101dp"
+                            android:layout_marginEnd="32dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Lorem ipsum dolor sit......."
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="149dp"
+                            android:layout_marginBottom="9dp"
+                            android:text="Selanjutnya"
+                            android:textColor="#0027FF"
+                            android:textSize="15sp"
+                            android:textStyle="italic" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pagesm">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Hapus Data"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bg_siswa">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="64dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@drawable/profile" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="57dp"
+                            android:text="Devan"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="217dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="103dp"
+                            android:layout_marginEnd="30dp"
+                            android:layout_marginBottom="35dp"
+                            android:text="Penjaga Gawang"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="end"
+                            android:layout_marginStart="102dp"
+                            android:layout_marginBottom="13dp"
+                            android:text="U12"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="36dp"
+                            android:layout_marginEnd="21dp"
+                            android:src="@drawable/ic_close" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/bg_siswa">
+
+                    <ImageView
+                        android:layout_width="76dp"
+                        android:layout_height="64dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="14dp"
+                        android:background="@drawable/profile" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="102dp"
+                        android:layout_marginBottom="57dp"
+                        android:text="Devan"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="217dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="103dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="35dp"
+                        android:text="Penjaga Gawang"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="end"
+                        android:layout_marginStart="102dp"
+                        android:layout_marginBottom="13dp"
+                        android:text="U12"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginEnd="21dp"
+                        android:src="@drawable/ic_close" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
